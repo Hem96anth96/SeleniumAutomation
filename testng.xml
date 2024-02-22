@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+	<listeners>
+		
+		<listener class-name="MyAtomation.SeleniumAutomation.TestComponents.TestListeners"></listener>
+		
+	</listeners>
+	
+	
+  <test  thread-count="5" name="Test">
+	  
+   <classes>
+	    <class name="MyAtomation.SeleniumAutomation.Tests.TestngTests1"/>
+			
+	  <class name="MyAtomation.SeleniumAutomation.Tests.TestngTests2">
+			
+			
+	    </class>
+	    
+		
+	   
+   </classes>
+     
+    
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
