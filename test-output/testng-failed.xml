@@ -11,6 +11,7 @@
           <include name="test2"/>
           <include name="launchAppPage"/>
           <include name="closeBrowser"/>
+          <include name="test1" invocation-numbers="0"/>
         </methods>
       </class> <!-- MyAtomation.SeleniumAutomation.Tests.TestngTests1 -->
     </classes>

@@ -12,10 +12,12 @@ import java.util.List;
 import java.util.Properties;
 import java.util.Set;
 
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -56,9 +58,16 @@ public class TestUtilities {
 		// System.getProperty("browser") becomes null so browser gets value from prop.getProperty("browser")
 		
 
-		if (broswer.equalsIgnoreCase("chrome")) {
+		if (broswer.contains("chrome")) {
+			ChromeOptions options = new ChromeOptions();
+			
+			if (broswer.contains("chromeoptions"))
+			{
+			options.addArguments("headless");
+			}
 
-			driver = new ChromeDriver();
+			driver = new ChromeDriver(options);
+			driver.manage().window().setSize(new Dimension(1440,900));
 
 		}
 		
@@ -67,6 +76,7 @@ public class TestUtilities {
 			
 			
 			driver = new FirefoxDriver();
+			driver.manage().window().setSize(new Dimension(1440,900));
 		}
 
 		return driver;
