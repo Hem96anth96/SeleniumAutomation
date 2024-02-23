@@ -81,7 +81,7 @@ public class TestngTests1 extends TestUtilities{
 		 
 		
 		 
-		 Assert.assertEquals(toast, "Incorrect email or passwor.");
+		 Assert.assertEquals(toast, "Incorrect email or password.");
 		
 		
 		
