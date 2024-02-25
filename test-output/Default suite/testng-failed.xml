@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MyAtomation.SeleniumAutomation.Tests.TestngTests">
+      <class name="MyAtomation.SeleniumAutomation.Tests.TestngTests1">
         <methods>
-          <include name="Test2"/>
           <include name="launchAppPage"/>
           <include name="closeBrowser"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- MyAtomation.SeleniumAutomation.Tests.TestngTests -->
+      </class> <!-- MyAtomation.SeleniumAutomation.Tests.TestngTests1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

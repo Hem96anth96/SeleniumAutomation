@@ -31,23 +31,14 @@ import MyAtomation.SeleniumAutomation.PageClaases.PaymentPage;
 import MyAtomation.SeleniumAutomation.TestComponents.Retry;
 import MyAtomation.SeleniumAutomation.TestComponents.TestUtilities;
 
-public class TestngTests1 extends TestUtilities{
-	
-    
-	
-	
-	
+public class TestngTests1 extends TestUtilities {
 
+	@Test(dataProvider = "myDataProvider")
+	// public void test1(String email, String password) throws InterruptedException,
+	// IOException {
 
+	public void test1(HashMap<String, String> data) throws InterruptedException, IOException {
 
-	@Test (dataProvider="myDataProvider")
-	//public void test1(String email, String password) throws InterruptedException, IOException {
-	
-	public void test1(HashMap<String, String> data)throws InterruptedException, IOException {
-		
-	
-
-		
 		DashboardPage objectDashboardPage = objectLandingPage.login(data.get(("email")), data.get("password"));
 
 		objectDashboardPage.itemsToCart();
@@ -66,29 +57,19 @@ public class TestngTests1 extends TestUtilities{
 
 		objectPaymentPage.clickOnPlaceOrder();
 
-		
-
-	
 	}
-	
-	@Test (retryAnalyzer=Retry.class)
+
+	@Test(retryAnalyzer = Retry.class)
 	public void test2() {
-		
 
-		 objectLandingPage.login("sainikil96@gmail.com", "wrongpassword");
-		
-		 String toast =objectLandingPage.getToast();
-		 
-		
-		 
-		 Assert.assertEquals(toast, "Incorrect email or password.");
-		
-		
-		
+		objectLandingPage.login("sainikil96@gmail.com", "wrongpassword");
+
+		String toast = objectLandingPage.getToast();
+
+		Assert.assertEquals(toast, "Incorrect email or password.");
+
 	}
-	
 
-	
 //	@DataProvider(name = "myDataProvider")
 //	public Object[][] myDataProvider() {
 //	    return new Object[][]{
@@ -98,32 +79,20 @@ public class TestngTests1 extends TestUtilities{
 //	    };
 //	}
 //	
-	
-	
+
 	@DataProvider(name = "myDataProvider")
 	public Object[][] myDataProvider() throws IOException {
-		
-		
+
 //		HashMap<String, String> dataMap = new HashMap<>();
 //		
 //		dataMap.put("email", "sainikil96@gmail.com");
 //		dataMap.put("password","*r#NHQH59V6WL@Q");
-		
-	List<HashMap<String, String>>	resultMap = jsontoHash(System.getProperty("user.dir")
-			+ "//src//test//java//MyAtomation//SeleniumAutomation//data//data.json");
-		
-		 return new Object[][] {{resultMap.get(0)}};
-		
-	 
 
-	        // Additional sets of parameters can be added here if needed
-	    }
+		List<HashMap<String, String>> resultMap = jsontoHash(
+				System.getProperty("user.dir") + "//src//test//java//MyAtomation//SeleniumAutomation//data//data.json");
+
+		return new Object[][] { { resultMap.get(0) }, { resultMap.get(1) } };
+
+		// Additional sets of parameters can be added here if needed
 	}
-	
-	
-	
-	
-
-	
-	
-	
+}

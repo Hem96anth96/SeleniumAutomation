@@ -39,9 +39,9 @@ import MyAtomation.SeleniumAutomation.PageClaases.LandingPage;
 
 public class TestUtilities {
 
-	public WebDriver driver;
+	private WebDriver driver;
 
-	public LandingPage objectLandingPage;
+	protected LandingPage objectLandingPage;
 
 	public WebDriver driverMethod() throws IOException {
 
