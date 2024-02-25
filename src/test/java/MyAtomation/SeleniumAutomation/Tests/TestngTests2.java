@@ -38,6 +38,8 @@ public class TestngTests2 extends TestUtilities{
 	@Test
 	public void test3()  {
 		
+		//dummytest
+		
 		Assert.assertTrue(true);
 		
 	}
