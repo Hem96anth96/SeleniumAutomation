@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-24T18:00:56 EST" name="Suite" finished-at="2024-02-24T18:01:50 EST" duration-ms="54088">
+  <suite started-at="2024-02-25T17:00:23 EST" name="Suite" finished-at="2024-02-25T17:01:14 EST" duration-ms="51079">
     <groups>
     </groups>
-    <test started-at="2024-02-24T18:00:56 EST" name="Test" finished-at="2024-02-24T18:01:50 EST" duration-ms="54088">
+    <test started-at="2024-02-25T17:00:23 EST" name="Test" finished-at="2024-02-25T17:01:14 EST" duration-ms="51079">
       <class name="MyAtomation.SeleniumAutomation.Tests.TestngTests1">
-        <test-method is-config="true" signature="launchAppPage()[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests1@41e36e46]" started-at="2024-02-24T18:00:56 EST" name="launchAppPage" finished-at="2024-02-24T18:01:01 EST" duration-ms="5040" status="PASS">
+        <test-method is-config="true" signature="launchAppPage()[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests1@41e36e46]" started-at="2024-02-25T17:00:23 EST" name="launchAppPage" finished-at="2024-02-25T17:00:28 EST" duration-ms="5027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAppPage -->
-        <test-method signature="test1(java.util.HashMap)[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests1@41e36e46]" started-at="2024-02-24T18:01:01 EST" name="test1" data-provider="myDataProvider" finished-at="2024-02-24T18:01:19 EST" duration-ms="17867" status="PASS">
+        <test-method signature="test1(java.util.HashMap)[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests1@41e36e46]" started-at="2024-02-25T17:00:28 EST" name="test1" data-provider="myDataProvider" finished-at="2024-02-25T17:00:46 EST" duration-ms="17642" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests1@41e36e46]" started-at="2024-02-24T18:01:19 EST" name="closeBrowser" finished-at="2024-02-24T18:01:19 EST" duration-ms="90" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests1@41e36e46]" started-at="2024-02-25T17:00:46 EST" name="closeBrowser" finished-at="2024-02-25T17:00:46 EST" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchAppPage()[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests1@41e36e46]" started-at="2024-02-24T18:01:19 EST" name="launchAppPage" finished-at="2024-02-24T18:01:27 EST" duration-ms="7301" status="PASS">
+        <test-method is-config="true" signature="launchAppPage()[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests1@41e36e46]" started-at="2024-02-25T17:00:46 EST" name="launchAppPage" finished-at="2024-02-25T17:00:51 EST" duration-ms="4913" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAppPage -->
-        <test-method signature="test1(java.util.HashMap)[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests1@41e36e46]" started-at="2024-02-24T18:01:27 EST" name="test1" data-provider="myDataProvider" finished-at="2024-02-24T18:01:44 EST" duration-ms="17570" status="PASS">
+        <test-method signature="test1(java.util.HashMap)[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests1@41e36e46]" started-at="2024-02-25T17:00:51 EST" name="test1" data-provider="myDataProvider" finished-at="2024-02-25T17:01:08 EST" duration-ms="17627" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,33 +41,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests1@41e36e46]" started-at="2024-02-24T18:01:44 EST" name="closeBrowser" finished-at="2024-02-24T18:01:44 EST" duration-ms="89" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests1@41e36e46]" started-at="2024-02-25T17:01:08 EST" name="closeBrowser" finished-at="2024-02-25T17:01:08 EST" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchAppPage()[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests1@41e36e46]" started-at="2024-02-24T18:01:44 EST" name="launchAppPage" finished-at="2024-02-24T18:01:50 EST" duration-ms="5358" status="PASS">
+        <test-method is-config="true" signature="launchAppPage()[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests1@41e36e46]" started-at="2024-02-25T17:01:08 EST" name="launchAppPage" finished-at="2024-02-25T17:01:13 EST" duration-ms="4861" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAppPage -->
-        <test-method signature="test2()[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests1@41e36e46]" started-at="2024-02-24T18:01:50 EST" name="test2" finished-at="2024-02-24T18:01:50 EST" duration-ms="520" status="PASS">
+        <test-method signature="test2()[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests1@41e36e46]" started-at="2024-02-25T17:01:13 EST" name="test2" finished-at="2024-02-25T17:01:14 EST" duration-ms="556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests1@41e36e46]" started-at="2024-02-24T18:01:50 EST" name="closeBrowser" finished-at="2024-02-24T18:01:50 EST" duration-ms="80" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests1@41e36e46]" started-at="2024-02-25T17:01:14 EST" name="closeBrowser" finished-at="2024-02-25T17:01:14 EST" duration-ms="85" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- MyAtomation.SeleniumAutomation.Tests.TestngTests1 -->
       <class name="MyAtomation.SeleniumAutomation.Tests.TestngTests2">
-        <test-method is-config="true" signature="launchAppPage()[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests2@6e171cd7]" started-at="2024-02-24T18:00:56 EST" name="launchAppPage" finished-at="2024-02-24T18:01:01 EST" duration-ms="4620" status="PASS">
+        <test-method is-config="true" signature="launchAppPage()[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests2@6e171cd7]" started-at="2024-02-25T17:00:23 EST" name="launchAppPage" finished-at="2024-02-25T17:00:30 EST" duration-ms="7069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAppPage -->
-        <test-method signature="test3()[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests2@6e171cd7]" started-at="2024-02-24T18:01:01 EST" name="test3" finished-at="2024-02-24T18:01:01 EST" duration-ms="10" status="PASS">
+        <test-method signature="test3()[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests2@6e171cd7]" started-at="2024-02-25T17:00:30 EST" name="test3" finished-at="2024-02-25T17:00:30 EST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests2@6e171cd7]" started-at="2024-02-24T18:01:01 EST" name="closeBrowser" finished-at="2024-02-24T18:01:01 EST" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:MyAtomation.SeleniumAutomation.Tests.TestngTests2@6e171cd7]" started-at="2024-02-25T17:00:30 EST" name="closeBrowser" finished-at="2024-02-25T17:00:30 EST" duration-ms="91" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
