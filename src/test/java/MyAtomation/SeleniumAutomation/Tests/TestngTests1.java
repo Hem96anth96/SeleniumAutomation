@@ -94,6 +94,6 @@ public class TestngTests1 extends TestUtilities {
 
 		return new Object[][] { { resultMap.get(0) }, { resultMap.get(1) } };
 
-		// Additional sets of parameters can be added here if needed
+		// Additional sets of parameters can be added here if needed.
 	}
 }
