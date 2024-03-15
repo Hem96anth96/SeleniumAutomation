@@ -34,4 +34,4 @@ jobs:
 
   
     - name: Run Selenium Tests
-      run: mvn Test # Replace YourTestClass with the actual test class name
+      run: mvn test # Replace YourTestClass with the actual test class name
