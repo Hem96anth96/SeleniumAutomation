@@ -27,8 +27,14 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
+    - name: Install Chrome
+      uses: justincampbell/setup-chrome@v2
+      with:
+        # Optionally specify a specific version of Chrome to install
+        version: 'latest'    
+        
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn test
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
